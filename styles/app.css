@@ -1,0 +1,68 @@
+/************************ Reset *************************/
+/* Main Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.boxes {
+  border: 1rem solid #000;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 20rem 20rem 20rem 20rem;
+  grid-gap: 1rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.boxes .box {
+  padding: 5rem;
+}
+
+.boxes .box1 {
+  background: #f54444;
+}
+
+.boxes .box2 {
+  background: #006eff;
+  justify-self: end;
+  align-self: end;
+}
+
+.boxes .box3 {
+  background: #23ff5a;
+  grid-column: 3/4;
+  grid-row: 1/4;
+}
+
+.boxes .box4 {
+  background: #d127b5;
+}
+
+.boxes .box5 {
+  background: #ffe600;
+}
+
+.boxes .box6 {
+  background: #00d9ff;
+}
+
+.boxes .box7 {
+  background: #ff006a;
+}
+
+.boxes .box8 {
+  background: #0e0158;
+}
+/*# sourceMappingURL=app.css.map */
